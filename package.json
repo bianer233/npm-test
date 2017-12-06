@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "version": "1.0.6",
+  "description": "It is a test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel index.js --presets babel-preset-es2015 --out-dir ."
+  },
+  "author": "Jing Bian",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-radweb": "git+https://git@github.com/radweb/eslint-config-radweb.git",
+    "sdk": "git+https://wwwin-github.cisco.com/DevNet/EventTracking-SDK#v0.0.0.1"
+  }
+}
